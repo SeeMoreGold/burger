@@ -1,8 +1,10 @@
-<img src="/assets/img/burger.png" style="width:200px;height:200px;"alt="Burger Illustration">
+<div class="hero">
+  <img src="/assets/img/burger.png" style="width:200px;height:200px;"alt="Burger Illustration">
 <h1>Eat-Da-Burger!</h1>
 
-<h2>Burgers that want to be Devoured</h2>
+</div>
 
+<h2>Burgers that WANT to be Devoured</h2>
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
@@ -11,7 +13,7 @@
   {{/each}}
 </ul>
 
-<h2>Burgers already Devoured!</h2>
+<h2>These burgers were DEVOURED!!!</h2>
 
 <ul>
   {{#each burgers}}
@@ -21,7 +23,8 @@
   {{/each}}
 </ul>
 
-<h2>Add a Burger</h2>
+<div class="addBurger">
+  <h2>Add a Burger</h2>
 <form class="create-form">
 
   <div class="form-group">
@@ -31,3 +34,4 @@
 
   <button id="addBurger" type="submit">Add Burger</button>
 </form>
+</div>
