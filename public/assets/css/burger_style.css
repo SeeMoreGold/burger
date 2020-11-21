@@ -16,6 +16,10 @@ li {
     text-align: center;
     background: #c4f9ff;
   }
+
+  .hide {
+    display: none;
+}
   
   .label {
     font-weight: bold;
