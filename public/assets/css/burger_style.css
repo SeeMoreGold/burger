@@ -1,3 +1,8 @@
+body {
+  background-color: #439c71;
+  font-family: 'Nerko One', cursive;
+  margin: 30px;
+}
 
 li {
     padding: 5px;
